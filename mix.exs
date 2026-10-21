@@ -73,7 +73,8 @@ defmodule Weftfeed.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.5"},
-      {:styler, "~> 1.12", only: [:dev, :test], runtime: false}
+      {:styler, "~> 1.12", only: [:dev, :test], runtime: false},
+      {:rustler, "~> 0.38.0", runtime: false}
     ]
   end
 
